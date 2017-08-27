@@ -15,7 +15,7 @@ export AZURE_QUEUE_KEY=F<storage account key>
 
 ## Usage
 
-### Load Azure Queue
+### [Load Azure Queue](https://github.com/neilpeterson/azure-queue-tools/blob/master/azure-queue-load.py)
 
 Modify line 17 to controll how many messages are placed on the queue.
 
@@ -29,7 +29,7 @@ Load messages:
 python azure-queue-load.py
 ```
 
-### Get Queue Length
+### [Get Queue Length](https://github.com/neilpeterson/azure-queue-tools/blob/master/azure-queue-count.py)
 
 Continuous loop to return Azure Queue length. This can be useful when wanting to monitor queue length.
 
@@ -37,7 +37,7 @@ Continuous loop to return Azure Queue length. This can be useful when wanting to
 python azure-queue-count.py
 ```
 
-### Delete Queue Messages
+### [Delete Queue Messages](https://github.com/neilpeterson/azure-queue-tools/blob/master/azure-queue-delete.py)
 
 Deletes all messages from a queue.
 
